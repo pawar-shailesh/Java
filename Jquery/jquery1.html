@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--demo for the jqery-->
+<html>
+    <head>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("h2").click(function(){
+                    alert("click function working on h2 selector");
+                    $("h1").hide(2000);
+                    $("#jquery").hide();
+                    $(".jeqery").hide();
+                    $("h2").fadeOut(2000);
+                    $("h2").fadeIn(2000);
+                    $("h1").fadeTo(2000);
+                    $("h1").fadeToggle(2000);
+
+                });
+            });
+        </script>
+
+        
+
+    </head>
+    <body>
+        <h1>h1 selectors</h1>
+         <h2>demo for the click function</h2>
+         <p id="jquery">how to work on id with jeqery</p>
+         <p class="jeqery">how to work on class with jeqery</p>
+    </body>
+</html>
