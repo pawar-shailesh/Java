@@ -1,0 +1,26 @@
+ form{
+		font: 1em sans-serif;
+		border: dimgray;
+		height: 100;
+		width: 1000;
+	  
+ } 
+ style{
+	 border: firebrick;
+ }
+  body{
+	  background-image: url("hotel.jpg");
+	  display:flex;
+	height: 100vh;
+	width: 100%;
+    font-size: 15px;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+  }
+  header{
+	  background-color: darkorange;
+  }
+  footer{
+	  background-color: darkorchid;
+  }

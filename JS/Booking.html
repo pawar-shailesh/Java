@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Form</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <style>
+        body {
+            background-image: url(Bird.jfif);
+            background-color: gray;
+        }
+    </style> -->
+</head>
+
+<body>
+     
+    <div>
+    <form style="border: black;">
+        <header>
+            <center><b>Room Booking</b></center>
+        </header>
+        <a>From-Date<input type="date" name="fromdate" id="fromdate"></a>
+        <a>To-Date<input type="date" name="todate" id="todate"></a>
+        <br><br><br>
+        <a>Purpose <input type="text" name="Purpose" id="purpose"></a>
+        <a>Number of people expected <input type="text" name="people" id="peoples"></a><br><br><br>
+        <a>Employee Id <input type="text" name="Id" class=floatLabel name="EmployeeId" id="employeeid"></a>
+        <label for="EmployeeId">Employee Id</label>
+        <a>Mobile Number <input type="tel" name="Mobile"></a><br><br><br>
+
+        <label for="rooms">Room Type:</label>
+        <select name="rooms" id="rooms">
+            <option value="Deluxe">Deluxe</option>
+            <option value="Super Deluxe">Super Deluxe</option>
+            <option value="Executive Suite">Executive Suite</option>
+            <option value="Villa">Villa</option>
+        </select>
+        <a>Duration <input type="text" name="duration"></a><br><br><br>
+        <input type="checkbox">Accept terms & conditions**.
+
+        <!-- <input type="submit" style="color:darkred; border: darkgreen;" value="Book Room"> -->
+        <footer>
+            <input type="button" value="Book Room" onclick="roomBooking()">
+            <input type="reset" value="Reset">
+        </footer>
+    </form>
+</div>
+   
+        <table id="show" border="3">
+            <tr>
+                <th>From Date</th>
+                <th>To Date</th>
+                <th>Purpose</th>
+                <th>Number Of Persons</th>
+                <!-- <input type="button" value="Edit">
+                <input type="button" value="Delete"> -->
+            </tr>
+
+        </table>
+        <script src="submit.js"></script>
+   
+</body>
+
+</html>
